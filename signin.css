@@ -1,0 +1,145 @@
+body{
+  box-sizing: border-box;
+  background-image: url(signinback.jpg);
+  font-family: 'Bangers', cursive;
+  width: 100px;
+  height: 950px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+.nevbar{
+  margin-left: 580px;
+  display: flex;
+ 
+
+}
+nav ul{
+  justify-content: center;
+  margin-top: 50px;
+
+}
+nav ul li{ 
+  list-style: none;   
+  margin-left: 100px;
+  font-size: 35px;
+ font-weight: bolder;
+} 
+nav ul li a
+{
+  text-decoration: none;
+  color: rgb(252, 252, 252)
+  }
+  nav ul li a:hover{
+    color: rgb(87, 86, 86)
+  }
+
+.form
+{
+
+  
+  text-align: center;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 480PX;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 40px;
+ 
+}
+#heading{
+  font-size: 50px;
+  color: rgb(253, 3, 3);
+  margin-top: -50px;
+}
+#name
+{
+  font-size: 25px;
+  color: rgb(248, 241, 241);
+  text-decoration: underline;
+}
+#name:hover{
+  color: rgb(87, 86, 86)
+}
+#userenter
+{
+  border: solid rgb(253, 3, 3);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 5px;
+ 
+}
+#pass{
+  font-size: 25px;
+  color: rgb(248, 241, 241);
+  text-decoration: underline;
+  margin-top: 30px;
+}
+#pass:hover{
+  color: rgb(87, 86, 86)
+}
+#passenter
+{
+  border: solid rgb(255, 3, 3);
+  border-radius: 5px;
+  padding: 5px;
+  padding-left: auto;
+  padding-right: auto;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+#login
+{
+  font-size: 20px;
+  font-weight: bolder;
+  background-color: rgb(253, 251, 251);
+  border: solid black;
+  border-radius: 25px;
+  margin-top:10px;
+  width: 130px;
+  padding: 10px;
+}
+#login:hover{
+  color: rgb(247, 4, 4);
+}
+
+.footer{
+margin-top: 300px;
+text-align:center;
+}
+
+.footer .row{
+width:1350px;
+color:rgb(250, 248, 248);
+font-size:15px;
+
+}
+
+.footer .row a{
+  font-size: 20px;
+text-decoration:none;
+color:rgb(250, 248, 248);
+
+}
+
+.footer .row a:hover{
+color:#fff;
+}
+
+.footer .row ul{
+width:100%;
+}
+
+.footer .row ul li{
+display:inline-block;
+margin:0px 30px;
+}
+
+.footer .row a i{
+font-size:2em;
+margin:0% 1%;
+}

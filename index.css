@@ -1,0 +1,590 @@
+*{
+box-sizing: border-box;
+font-family: 'Bangers', cursive;
+}
+
+body{
+  background-color: rgb(121, 110, 110);
+  background-image: url('homebg.jpg');
+  width: 100px;
+  height: 750px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nevbar{
+  margin-left: -140px;
+  display: flex;
+
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 36px;
+}
+nav ul li{ 
+  list-style: none;   
+  margin-left: 100px;
+  font-size: 35px;
+} 
+nav ul li a
+{
+  text-decoration: none;
+  color: white
+  }
+  nav ul li a:hover{
+    color: rgb(253, 2, 2)
+  }
+
+.name{
+  color: #f80505;
+  font-size: 36px;
+  margin-top: auto;
+}
+
+.skill ,#heading{
+  color: #fa0606;
+  margin-top:50px;
+  margin-right:600px;
+  font-size:55px;
+  text-decoration: underline;
+}
+
+.skill  ,#HTH{
+  margin-top:100px;
+  margin-right:900px;
+  margin-left:50px;
+  margin-bottom:0px;
+  font-size:20px;
+  position: absolute;
+  top: 800px;
+  right: 30px;
+  color: #f6f7d9;
+  text-align: center;
+}
+.skill,#DS{
+    margin-top:300px;
+    margin-right:900px;
+    margin-left:50px;
+    margin-bottom:0px;
+   font-size:20px;
+   position: absolute;
+   top: 800px;
+   color: #f6f7d9;
+   text-align: center;
+}
+.skill,#GU{
+    margin-top:100px;
+    margin-right:50px;
+    margin-left:950px;
+    margin-bottom:0px;
+   font-size:20px;
+   position: absolute;
+   color: #f6f7d9;
+   text-align: center;
+   
+
+}
+.skill,#PC{
+  margin-top:300px;
+  margin-right:50px;
+  margin-left:950px;
+  margin-bottom:0px;
+  font-size:20px;
+  position: absolute;
+  color: #f6f7d9;
+  text-align: center;
+}
+.enemies,#head{
+  
+  color: #fa0606;
+  font-size:55px;
+  margin-top:1300px;
+  margin-right:50px;
+  margin-left:530px;
+  margin-bottom: 100px;
+  
+}
+
+.EneDT{
+  margin-top:630px;
+  margin-right:150px;
+  margin-left:-50px;
+  margin-bottom:0px;
+   font-size:80px;
+   position: absolute;
+   top: 800px;
+   text-decoration: underline;
+}
+
+.villins,#joker{
+  font-size:18px;
+  margin-top: 150px;
+  margin-left:0px;
+  margin-right: 800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+.villname{
+font-size: 40px;
+color: #fa0606;
+
+
+}
+.villins{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border-radius: 10px;
+  background-color:#b89c9c;
+  top: 1470px;
+  left: 50px;
+}
+#joker{
+  font-size:18px;
+  margin-top: 150px;
+  margin-left:0px;
+  margin-right:800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#riddler{
+  font-size:18px;
+  margin-top: 350px;
+  margin-left:0px;
+  margin-right:800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+  
+}
+#twoface{
+  font-size:18px;
+  margin-top:550px;
+  margin-left:0px;
+  margin-right:800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#blackmask{
+  font-size:18px;
+  margin-top:780px;
+  margin-left:0px;
+  margin-right:800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#harleen{
+    font-size:18px;
+    margin-top: 150px;
+    margin-left:790px;
+    margin-right:50px;
+    text-align: left; 
+    position: absolute;
+  }
+  #harleen{
+    font-size:18px;
+    margin-top: 150px;
+    margin-left:770px;
+    margin-right:40px;
+    text-align: left; 
+    position: absolute;
+  }
+  #penguin{
+   
+      font-size:18px;
+      margin-top: 350px;
+      margin-left:770px;
+      margin-right:40px;
+      text-align: left; 
+      position: absolute;
+    }
+#solomon{
+  font-size:18px;
+      margin-top:550px;
+      margin-left:770px;
+      margin-right:40px;
+      text-align: left; 
+      position: absolute;
+}
+#bane{
+  font-size:18px;
+  margin-top:780px;
+  margin-left:770px;
+  margin-right:40px;
+  text-align: left; 
+  position: absolute;
+
+}
+#outro{
+  color: #f80505;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+  text-decoration: underline
+}
+.enemiesimg{
+  background-image: url(Batmanvi.webp);
+  width: 1350px;
+  height: 950px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#originback{
+  background-image: url(batmanorigin.png);
+  margin-top: 200px;
+  margin-left: 1400px;
+width:1350px;
+height: 500px;
+margin-left: 0px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+#originheading
+{
+
+  color: #fa0606;
+  font-size:50px;
+  margin-top:80px;
+  margin-left: 480px;
+  position: absolute;
+  text-decoration: underline;
+}
+#origindetail{
+  font-size: 30px;
+  color: #faf7f7;
+  margin-top: -450px;
+  margin-right:100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+
+}
+body{
+  width: 1350px;
+  overflow-x:hidden;
+  }
+  
+  .footer{
+    background-color: rgb(121, 110, 110);
+  padding:30px 0px;
+  font-family: 'Play', sans-serif;
+  text-align:center;
+  }
+  
+  .footer .row{
+  width:100%;
+  margin:1% 0%;
+  padding:0.6% 0%;
+  color:rgb(2, 2, 2);
+  font-size:0.8em;
+  }
+  
+  .footer .row a{
+    font-size: 20px;
+  text-decoration:none;
+  color:rgb(2, 2, 2);
+  }
+  
+  .footer .row a:hover{
+  color:#fff;
+  }
+  
+  .footer .row ul{
+  width:100%;
+  }
+  
+  .footer .row ul li{
+  display:inline-block;
+  margin:0px 30px;
+  }
+  
+  .footer .row a i{
+  font-size:2em;
+  margin:0% 1%;
+  }
+  
+  @media (max-width:720px){
+  .footer{
+  text-align:left;
+  padding:5%;
+  }
+  .footer .row ul li{
+  display:block;
+  margin:10px 0px;
+  text-align:left;
+  }
+  .footer .row a i{
+  margin:0% 3%;
+  }
+  }
+/* ======================================== media query========================================================= */
+@media screen and (max-width: 600px )
+{
+  
+body{
+  background-color: rgb(121, 110, 110);
+  background-image: url('homebg.jpg');
+  width: 100px;
+  height: 250px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nevbar{
+  margin-left: 230px;
+  display: flex;
+ /* align-items: center; */
+
+}
+nav ul{
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+  margin-top: 36px;
+}
+nav ul li{ 
+   /* letter-spacing: normal; */
+  list-style: none;   
+  margin-left: 100px;
+  font-size: 35px;
+} 
+nav ul li a
+{
+  text-decoration: none;
+  color: white
+  }
+  nav ul li a:hover{
+    color: rgb(253, 2, 2)
+  }
+.name{
+  color: #f80505;
+  font-size: 25px;
+  margin-top: auto;
+}
+
+.skill ,#heading{
+  color: #fa0606;
+  margin-top:-450px;
+  margin-right:190px;
+  font-size:50px;
+  text-decoration: underline;
+}
+
+.skill  ,#HTH{
+  margin-top:-380px;
+  margin-right:300px;
+  margin-left:30px;
+  margin-bottom:0px;
+ font-size:15px;
+ position: absolute;
+ color: #f6f7d9;
+ text-align: center;
+ 
+}
+.skill,#DS{
+    margin-top:-370px;
+    margin-right:00px;
+    margin-left:350px;
+    margin-bottom:0px;
+   font-size:15px;
+   position: absolute;
+   top: 800px;
+   color: #f6f7d9;
+   text-align: center;
+}
+.skill,#GU{
+    margin-top:-200px;
+    margin-right:300px;
+    margin-left:30px;
+    margin-bottom:0px;
+   font-size:15px;
+   position: absolute;
+   color: #f6f7d9;
+   text-align: center;
+   
+
+}
+.skill,#PC{
+  margin-top:-200px;
+  margin-right:0px;
+  margin-left:350px;
+  margin-bottom:0px;
+  font-size:15px;
+  position: absolute;
+  color: #f6f7d9;
+  text-align: center;
+}
+.enemies,#head{
+  
+  color: #fa0606;
+  font-size:50px;
+  margin-top:780px;
+  margin-right:0px;
+  margin-left:210px;
+  margin-bottom: 100px;
+  
+}
+
+.EneDT{
+  margin-top:630px;
+  margin-right:150px;
+  margin-left:-50px;
+  margin-bottom:0px;
+   font-size:80px;
+   position: absolute;
+   top: 800px;
+   /* color: #fa0404; */
+   /* text-align: right; */
+   text-decoration: underline;
+}
+
+.villins,#joker{
+  font-size:18px;
+  margin-top:150px;
+  margin-left:0px;
+  margin-right: 800px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+.villname{
+font-size: 25px;
+color: #fa0606;
+
+
+}
+.villins{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom:10px;
+  border-radius: 10px;
+  background-color:#b89c9c;
+  top: 1470px;
+  left: 50px;
+}
+#joker{
+  font-size:15px;
+  margin-top: -400px;
+  margin-left:-30px;
+  margin-right:300px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#riddler{
+  font-size:15px;
+  margin-top: -180px;
+  margin-left:-30px;
+  margin-right:300px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#twoface{
+  font-size:15px;
+  margin-top: 10px;
+  margin-left:-30px;
+  margin-right:300px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#blackmask{
+  font-size:15px;
+  margin-top: -401px;
+  margin-left:263px;
+  margin-right:24px;
+  margin-bottom:0px;
+  text-align: left; 
+  position: absolute;
+}
+#harleen{
+    font-size:15px;
+    margin-top: -180px;
+    margin-left:263px;
+    margin-right:24px;
+    text-align: left; 
+    position: absolute;
+  }
+  #penguin{
+   
+      font-size:18px;
+      margin-top: 350px;
+      margin-left:770px;
+      margin-right:40px;
+      text-align: left; 
+      position: absolute;
+    }
+#solomon{
+  font-size:18px;
+      margin-top:550px;
+      margin-left:770px;
+      margin-right:40px;
+      text-align: left; 
+      position: absolute;
+}
+#bane{
+  font-size:18px;
+  margin-top:780px;
+  margin-left:770px;
+  margin-right:40px;
+  text-align: left; 
+  position: absolute;
+
+}
+#outro{
+  color: #f80505;
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 350px;
+  text-decoration: underline
+}
+.enemiesimg{
+  background-image: url(Batmanvi.webp);
+  width: 600px;
+  height: 700px;
+  margin-left: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#footerimg{
+  background-image: url(footer.png);
+  width: 1350px;
+  height: 400px;
+  margin-top: 300px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  mix-blend-mode: multiply;
+
+}
+#originheading
+{
+
+  color: #fa0606;
+  font-size:50px;
+  margin-top:40px;
+  margin-left: 40px;
+  position: absolute;
+  text-decoration: underline;
+}
+}
